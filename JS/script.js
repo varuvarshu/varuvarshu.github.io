@@ -17,10 +17,10 @@ times.addEventListener('click',function(){
 // document.querySelector("#form").addEventListener("submit",sendEmail());
 function sendEmail(){
     Email.send({
-        Host : "smtp.gmail.com",
-        Username : "d@gmail.com",
-        Password : "00000000000",
-        To : 'a@gmail.com',
+        Host : "dhingra.va24@gmail.com",
+        Username : "d.varsha24@gmail.com",
+        Password : "000000000",
+        To : 'dhingra.varsha24@gmail.com',
         From : document.querySelector("#email").value,
         Subject : "New Contact from Portfolio",
         Body : "Name: "+document.querySelector("#f_name").value+" "+document.querySelector("#l_name").value
