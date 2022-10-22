@@ -145,10 +145,10 @@ section.about {
   box-shadow: 0 5px 35px rgba(0, 0, 0, 15);
 }
 .about-img {
-  width: 400px;
+  width: 270px;
   border: 2px solid var(--primary);
   border-radius: 30px;
-  height: 500px;
+  height: 330px;
   transition: all 0.2s ease;
   margin-left: 20%;
 }
