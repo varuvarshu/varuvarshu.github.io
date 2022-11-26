@@ -144,19 +144,30 @@ section.about {
   /* padding: 0 20%; */
   box-shadow: 0 5px 35px rgba(0, 0, 0, 15);
 }
-.about-img {
+/* .about-img {
   width: 270px;
   border: 2px solid var(--primary);
   border-radius: 30px;
   height: 330px;
   transition: all 0.2s ease;
   margin-left: 20%;
-}
+} */
 /* .about-img:hover{
     width: 400px;
     height: 450px;
     cursor: pointer;
 } */
+.about-img{
+  width:300px;
+  border:2px solid var(--primary);
+  border-radius:30px;
+  height:310px;
+  trasition:all .2s ease;
+  margin-left:20%;
+ 
+
+
+}
 
 .about h1 {
   margin-bottom: 1rem;
@@ -669,7 +680,7 @@ textarea {
     margin: auto;
   }
   .about-img {
-    margin-left: -40px;
+    margin-left: 0;
   }
 
   /* Navbar*/
